@@ -1,24 +1,46 @@
 # Compiled class file
-*.class
-
-# Log file
-*.log
-
 # BlueJ files
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
-*.jar
-*.war
 *.nar
-*.ear
-*.zip
 *.tar.gz
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+/.project
+/.settings
+/reports
+/target
+/test-output
+/.classpath
+/sql.log
+/application.log
+.classpath
+.project
+*.log
+*.apk
+!src/main/resources/carinademoexample.apk
+*.zip
+!src/main/resources/carinademoexample.zip
+.settings/*
+target/*
+test-output/*
+reports/*
+/.metadata/
+.idea
+*.iml
+/target/
+*new_custom_messages_*.properties
+/bin/
+.DS_Store
